@@ -7,13 +7,13 @@ export default function Footer() {
 
       <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-text-muted">
-          &copy; {currentYear} Aroni. Built with{" "}
+          &copy; {currentYear} Wai Phyo Aung. Built with{" "}
           <span className="text-teal-400">Next.js</span> &{" "}
           <span className="text-teal-400">Tailwind CSS</span>.
         </p>
 
         <p className="text-xs text-text-muted/60 font-mono">
-          ありがとう &middot; Thanks for visiting
+          Made with passion &amp; caffeine
         </p>
       </div>
     </footer>

@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aroni | Portfolio",
+  title: "Wai Phyo Aung | Portfolio",
   description:
-    "Full-stack developer portfolio with anime-inspired design. Crafting digital experiences with clean code and creative design.",
-  keywords: ["developer", "portfolio", "full-stack", "react", "next.js", "anime theme"],
-  authors: [{ name: "Aroni" }],
+    "CS student & blockchain enthusiast portfolio — exploring Web3, smart contracts, and decentralized tech. Anime-inspired design.",
+  keywords: ["developer", "portfolio", "blockchain", "web3", "react", "next.js", "solidity", "anime theme"],
+  authors: [{ name: "Wai Phyo Aung" }],
   openGraph: {
-    title: "Aroni | Portfolio",
+    title: "Wai Phyo Aung | Portfolio",
     description:
-      "Full-stack developer portfolio with anime-inspired design.",
+      "CS student & blockchain enthusiast portfolio — exploring Web3, smart contracts, and decentralized tech.",
     type: "website",
   },
 };

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiSend } from "react-icons/fi";
+  import { FiGithub, FiLinkedin, FiMail, FiSend } from "react-icons/fi";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -31,7 +31,7 @@ export default function Contact() {
             </span>
           </h2>
           <p className="text-text-muted text-sm font-mono tracking-widest uppercase">
-            お問い合わせ
+            Let&apos;s Connect
           </p>
         </motion.div>
 
@@ -55,24 +55,20 @@ export default function Contact() {
               {[
                 {
                   icon: FiMail,
-                  label: "hello@aroni.dev",
-                  href: "mailto:hello@aroni.dev",
+                  label: "waiphyo5901969@gmail.com",
+                  href: "mailto:waiphyo5901969@gmail.com",
                 },
                 {
                   icon: FiGithub,
-                  label: "github.com/aroni",
-                  href: "https://github.com/aroni",
+                  label: "github.com/waiphyoaung-969",
+                  href: "https://github.com/waiphyoaung-969",
                 },
                 {
                   icon: FiLinkedin,
-                  label: "linkedin.com/in/aroni",
-                  href: "https://linkedin.com/in/aroni",
+                  label: "linkedin.com/in/wai-phyo-aung-rain",
+                  href: "https://www.linkedin.com/in/wai-phyo-aung-rain",
                 },
-                {
-                  icon: FiTwitter,
-                  label: "twitter.com/aroni",
-                  href: "https://twitter.com/aroni",
-                },
+
               ].map((link) => (
                 <a
                   key={link.label}

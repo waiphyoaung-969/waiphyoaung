@@ -38,33 +38,35 @@ export default function About() {
               </span>
             </h2>
             <p className="text-text-muted text-sm font-mono tracking-widest uppercase mb-8">
-              自己紹介
+              Who I Am
             </p>
 
             <div className="space-y-5 text-text-muted leading-relaxed">
               <p>
-                Hey! I&apos;m a passionate full-stack developer who loves building
-                beautiful, performant web applications. I blend clean
-                architecture with creative design to craft experiences that feel
-                smooth and look great.
+                Hey! I&apos;m a second-year Computer Science student who fell in love
+                with building things for the web — and now I&apos;m diving deep into
+                blockchain and Web3. I enjoy turning ideas into working apps,
+                from clean frontends to smart contracts on-chain.
               </p>
               <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new
-                technologies, diving into anime and manga, or sketching UI ideas
-                on my tablet. I believe great software tells a story — and every
-                pixel matters.
+                When I&apos;m not studying or coding, you&apos;ll find me watching anime,
+                reading manga, sketching UI designs, exploring blockchain docs,
+                or tinkering with Web3 side projects. I believe every great
+                project starts with curiosity.
               </p>
               <p>
-                Currently based in <span className="text-teal-400 font-medium">Tokyo</span>,
-                open to remote opportunities worldwide.
+                Currently looking for{" "}
+                <span className="text-teal-400 font-medium">blockchain</span> and{" "}
+                <span className="text-teal-400 font-medium">Web3 internship</span>{" "}
+                opportunities to grow as a developer.
               </p>
             </div>
 
             <div className="mt-8 flex gap-8">
               {[
-                { label: "Years Exp.", value: "5+" },
-                { label: "Projects", value: "30+" },
-                { label: "Technologies", value: "20+" },
+                { label: "Year", value: "2nd" },
+                { label: "Projects", value: "10+" },
+                { label: "Skills", value: "10+" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="text-2xl md:text-3xl font-bold text-teal-400">

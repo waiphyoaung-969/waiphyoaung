@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           <p className="text-teal-400 text-sm md:text-base tracking-[0.3em] uppercase mb-4 font-mono">
-            ようこそ &middot; Welcome
+              CS Student &amp; Blockchain Explorer
           </p>
         </motion.div>
 
@@ -29,7 +29,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
           <span className="bg-gradient-to-r from-teal-300 via-teal-400 to-mint-400 bg-clip-text text-transparent">
-            Aroni
+            Wai Phyo Aung
           </span>
         </motion.h1>
 
@@ -39,8 +39,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed"
         >
-          Full-Stack Developer &mdash; crafting digital experiences with clean
-          code and creative design.
+            Second-year CS student diving into blockchain &amp; Web3 &mdash; curious about
+            decentralized tech, smart contracts, and the future of the internet.
         </motion.p>
 
         <motion.div

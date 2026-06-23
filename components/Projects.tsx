@@ -5,50 +5,12 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Kanban Flow",
+    title: "Sayin – House Sharer",
     description:
-      "A real-time project management board with drag-and-drop, WebSocket sync, and dark mode. Inspired by Trello.",
-    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-    github: "#",
+      "A house sharing platform for managing shared living spaces — track expenses, chores, and house rules with your roommates. Built with a React + Vite frontend and Express backend, using Prisma ORM with Supabase PostgreSQL.",
+    tags: ["React", "Vite", "Tailwind CSS", "Express", "Prisma", "Supabase"],
+    github: "https://github.com/waiphyoaung-969/Sayin",
     live: "#",
-  },
-  {
-    title: "Anime Tracker",
-    description:
-      "Track your anime watchlist, rate series, and get AI-powered recommendations based on your taste profile.",
-    tags: ["React", "Node.js", "MongoDB", "TensorFlow"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Pixel Shelf",
-    description:
-      "A digital bookshelf for manga collectors — scan barcodes, organize volumes, and track your reading progress.",
-    tags: ["React Native", "Firebase", "Vision API"],
-    github: "#",
-  },
-  {
-    title: "Waveform",
-    description:
-      "A minimal audio visualization library built with Web Audio API and Canvas. Plug and play for any project.",
-    tags: ["TypeScript", "Web Audio", "Canvas"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "DevLog",
-    description:
-      "A markdown-powered developer blog with syntax highlighting, RSS feed, and an interactive code playground.",
-    tags: ["Next.js", "MDX", "Tailwind", "Vercel"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "ChatCord",
-    description:
-      "Real-time chat application with rooms, typing indicators, and emoji support. Built as a Discord clone.",
-    tags: ["Socket.io", "Express", "React", "Redis"],
-    github: "#",
   },
 ];
 
@@ -69,7 +31,7 @@ export default function Projects() {
             </span>
           </h2>
           <p className="text-text-muted text-sm font-mono tracking-widest uppercase">
-            プロジェクト
+            Featured Work
           </p>
         </motion.div>
 

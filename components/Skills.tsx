@@ -3,16 +3,16 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React / Next.js", level: 95 },
-  { name: "TypeScript", level: 90 },
-  { name: "Node.js", level: 85 },
-  { name: "Tailwind CSS", level: 92 },
-  { name: "Python", level: 80 },
-  { name: "PostgreSQL", level: 82 },
-  { name: "Docker", level: 75 },
-  { name: "Figma", level: 70 },
-  { name: "GraphQL", level: 78 },
-  { name: "AWS", level: 72 },
+  { name: "JavaScript", level: 78 },
+  { name: "React", level: 70 },
+  { name: "Tailwind CSS", level: 75 },
+  { name: "Python", level: 72 },
+  { name: "Java", level: 65 },
+  { name: "Git & GitHub", level: 80 },
+  { name: "Linux Systems", level: 60 },
+  { name: "Networking", level: 65 },
+  { name: "Solidity", level: 30 },
+  { name: "Web3 / Blockchain", level: 35 },
 ];
 
 export default function Skills() {
@@ -32,35 +32,35 @@ export default function Skills() {
             </span>
           </h2>
           <p className="text-text-muted text-sm font-mono tracking-widest uppercase">
-            スキル
+            My Stack
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-4">
           {skills.map((skill, i) => (
             <motion.div
               key={skill.name}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.4, delay: i * 0.05 }}
-              className="bg-surface border border-teal-500/10 rounded-xl p-5 hover:border-teal-500/30 transition-all duration-300 group"
+              transition={{ duration: 0.3, delay: i * 0.05 }}
+              className="bg-surface border border-teal-500/10 rounded-xl px-5 py-4 hover:border-teal-500/20 transition-colors group"
             >
-              <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-medium text-text group-hover:text-teal-300 transition-colors">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-sm text-text group-hover:text-teal-300 transition-colors">
                   {skill.name}
                 </span>
                 <span className="text-xs font-mono text-teal-400">
                   {skill.level}%
                 </span>
               </div>
-              <div className="w-full h-2 bg-dark-light rounded-full overflow-hidden">
+              <div className="w-full h-1.5 bg-dark rounded-full overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
                   whileInView={{ width: `${skill.level}%` }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.2 + i * 0.05, ease: "easeOut" }}
-                  className="h-full rounded-full bg-gradient-to-r from-teal-600 via-teal-400 to-mint-400"
+                  transition={{ duration: 0.7, delay: 0.1 + i * 0.05, ease: "easeOut" }}
+                  className="h-full rounded-full bg-gradient-to-r from-teal-500 to-mint-400"
                 />
               </div>
             </motion.div>
