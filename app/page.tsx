@@ -68,7 +68,6 @@ export default function Home() {
               <figure className="portrait glass">
                 <div className="portrait-top">
                   <span className="dot"></span>
-                  <span>THE PERSON BEHIND THE CODE</span>
                   <span aria-hidden="true">✳</span>
                 </div>
                 <Image
