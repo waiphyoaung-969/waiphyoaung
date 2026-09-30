@@ -214,6 +214,30 @@ export default function Home() {
               </article>
               <article>
                 <div className="time">
+                  2026<span>HACKATHON</span>
+                </div>
+                <div>
+                  <span className="small-label">HANDS-ON LEARNING</span>
+                  <h3>
+                    <a
+                      href="https://luma.com/nd66d2eg"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Team1 Codebase Hackathon: Chula Edition ↗
+                    </a>
+                  </h3>
+                  <p className="institution">Participant / Builder · Bangkok</p>
+                  <p>
+                    Participated in a one-day Web3 builder hackathon focused on
+                    decentralized applications on Avalanche. Gained hands-on
+                    experience with rapid prototyping, collaboration, mentor
+                    feedback, and product pitching.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <div className="time">
                   2025<span>HACKATHON</span>
                 </div>
                 <div>
